@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 32px;
+  text-align: center;
+}
+
+.button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  color: var(--unifi-color-ublue-06);
+  background: none;
+  border: 1px solid var(--unifi-color-ublue-06);
+  border-radius: 4px;
+  cursor: pointer;
+  font: inherit;
+  transition: background 0.15s;
+}
+
+.button:hover {
+  background: var(--unifi-color-neutral-02);
+}

@@ -1,0 +1,105 @@
+.wrapper {
+  position: relative;
+}
+
+.searchWrapper {
+  position: relative;
+  width: 320px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  display: flex;
+  color: var(--unifi-color-neutral-08);
+}
+
+.searchInput {
+  width: 100%;
+  height: 32px;
+  padding: 2px 12px 0 32px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: var(--unifi-color-neutral-04);
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--unifi-text-1);
+  outline: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.searchInput::placeholder {
+  color: var(--unifi-text-black-45);
+}
+
+.searchInput:hover {
+  background: var(--unifi-color-neutral-03);
+}
+
+.searchInput:focus-visible {
+  border-color: var(--unifi-color-ublue-06);
+  background: var(--unifi-color-neutral-04);
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  width: 344px;
+  background: var(--unifi-color-neutral-00);
+  border-radius: 8px;
+  box-shadow: var(--unifi-shadow-high);
+  padding: 8px;
+  z-index: 100;
+}
+
+.resultItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 4px;
+  text-align: left;
+  font-family: 'UI Sans v7', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.resultItem:hover,
+.resultItemFocused {
+  background: var(--unifi-color-neutral-02);
+}
+
+.resultName {
+  color: var(--unifi-text-2);
+}
+
+.resultShortname {
+  color: var(--unifi-text-3);
+  flex-shrink: 0;
+}
+
+.highlight {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .searchWrapper {
+    width: 100%;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+}

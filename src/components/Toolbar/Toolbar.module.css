@@ -1,0 +1,85 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.count {
+  font-size: 12px;
+  color: var(--unifi-color-neutral-count);
+  white-space: nowrap;
+  margin-right: auto;
+}
+
+.viewToggle {
+  display: flex;
+  gap: 4px;
+}
+
+.viewBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  color: var(--unifi-color-neutral-08);
+  overflow: visible;
+  transition: background 0.15s, color 0.15s;
+}
+
+.viewBtn svg {
+  display: block;
+}
+
+.viewBtn:hover {
+  background: var(--unifi-color-neutral-02);
+}
+
+.viewBtn:focus-visible {
+  outline: 2px solid var(--unifi-color-ublue-06);
+  outline-offset: -2px;
+}
+
+.viewBtnActive {
+  background: var(--unifi-color-neutral-01);
+  color: var(--unifi-color-ublue-06);
+}
+
+.filterWrapper {
+  position: relative;
+}
+
+.filterBtn {
+  height: 32px;
+  padding: 0 6px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--unifi-text-black-45);
+  transition: background 0.15s, color 0.15s;
+}
+
+.filterBtn:hover {
+  background: var(--unifi-color-neutral-02);
+}
+
+.filterBtn:focus-visible {
+  outline: 2px solid var(--unifi-color-ublue-06);
+  outline-offset: -2px;
+}
+
+.filterBtnActive {
+  background: var(--unifi-color-neutral-01);
+  color: var(--unifi-color-ublue-06);
+}

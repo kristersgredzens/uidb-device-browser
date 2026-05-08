@@ -1,0 +1,66 @@
+:root {
+  /* Primary */
+  --unifi-color-ublue-06: #006FFF;
+  --unifi-color-ublue-07: #0059CC;
+
+  /* Destructive */
+  --unifi-color-red-06: #F03A3E;
+  --unifi-color-red-03: #F9B0B2;
+
+  /* Text */
+  --unifi-text-1: #212327;
+  --unifi-text-2: #50565E;
+  --unifi-text-3: #808893;
+  --unifi-text-black-85: rgba(0, 0, 0, 0.85);
+  --unifi-text-black-65: rgba(0, 0, 0, 0.65);
+  --unifi-text-black-45: rgba(0, 0, 0, 0.45);
+
+  /* Neutrals — names match Figma style guide (two overlapping scales) */
+  --unifi-color-neutral-00: #FFFFFF;  /* white, card bg, dropdown bg */
+  --unifi-color-neutral-01: #F9FAFA; /* card image area, grid hover bg */
+  --unifi-color-neutral-02: #F4F5F6; /* top bar bg, row/btn hover bg */
+  --unifi-color-neutral-03: #EDEDF0; /* borders, dividers */
+  --unifi-color-neutral-04: #F6F6F8; /* search input bg */
+  --unifi-color-neutral-06: #B6B9C4; /* checkbox border */
+  --unifi-color-neutral-08: #838691; /* icon default color */
+  --unifi-color-neutral-count: #BDBDBD; /* device count label */
+
+  /* Shadows */
+  --unifi-shadow-high: 0px 16px 32px rgba(28, 30, 45, 0.2);
+  --unifi-shadow-btn: 0px 0px 0.5px rgba(0, 0, 0, 0.06), 0px 8px 12px rgba(0, 0, 0, 0.08);
+
+  /* Layout */
+  --header-height: 50px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'UI Sans v7', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

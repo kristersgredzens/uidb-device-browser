@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 32px;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--unifi-color-ublue-06);
+  font-size: 14px;
+}
+
+.link:hover {
+  color: var(--unifi-color-ublue-07);
+}
