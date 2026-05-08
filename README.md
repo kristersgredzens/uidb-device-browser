@@ -3,7 +3,7 @@
 Device browser for Ubiquiti's UIDB — browse, search, and filter product data with list/grid views and detailed device pages.
 
 ## Live Demo
-
+https://uidb-device-browser.vercel.app/
 ---
 
 ## Quick Start
