@@ -17,7 +17,7 @@ class ErrorCatcher extends Component<Props, State> {
     return { hasError: true }
   }
 
-  componentDidCatch(error: Error, info: ErrorInfo) {
+  componentDidCatch(error: Error, _info: ErrorInfo) {
     console.error('Unexpected rendering error:', error.message)
   }
 
