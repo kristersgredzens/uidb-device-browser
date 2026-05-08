@@ -1,6 +1,6 @@
 # UIDB Device Browser
 
-Internal productivity tool for Ubiquiti — helps developers, designers, and PMs discover, verify, share, and align on product data from the UIDB.
+Device browser for Ubiquiti's UIDB — browse, search, and filter product data with list/grid views and detailed device pages.
 
 ## Live Demo
 
