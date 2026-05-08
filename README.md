@@ -132,7 +132,7 @@ When adding new components, reference these tokens instead of hardcoding color v
 
 ## Known Limitations
 
-- **No tests** — the project was kick-started for handoff; adding unit/integration tests (e.g., Vitest + React Testing Library) is a recommended first step.
+- **No tests** — the project was kick-started for handoff;
 - **No i18n** — all strings are hardcoded in English.
 - **No auth** — this is an internal tool; authentication/authorization is not implemented.
 - **Single API endpoint** — if the UIDB endpoint goes down or changes its schema significantly, the app may show empty/degraded data. The error catcher and TanStack Query error states handle this gracefully but there's no retry UI beyond the built-in query retry (3 attempts).
